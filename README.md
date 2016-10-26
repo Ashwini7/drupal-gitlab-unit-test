@@ -2,21 +2,18 @@
 
 [![Build Status](https://travis-ci.org/vigetlabs/gulp-starter.svg?branch=static-server)](https://travis-ci.org/vigetlabs/gulp-starter)
 
-# Drupal Starter Kit
-
 ## About
 Gitlab + Gulp : Currently only for Drupal 8 projects. Stay tune....
 
 ## Features
 * Automated coding standard(Drupal Coding Standards, CSS Linting, JS Linting) check using [coder](https://www.drupal.org/project/coder)
-, [eslint](http://eslint.org), [csslint](http://csslint.net). The infrastructure has been setup using [gulp](http://gulpjs.com) and
+, [eslint](http://eslint.org), [csslint](http://csslint.net). The infrastructure has been setup using gulp](http://gulpjs.com) and
 [gitlab].
 
 ## Future Roadmap
-* One touch set up of local development environment using docker containers
 * Make the directory paths generic for all Drupal projects.
 * Update .gitlab-ci.yml correctly
-* Add some more unti test and Auto fixer https://github.com/vigetlabs/gulp-starter
+* Add some more unit test and Auto fixer https://github.com/vigetlabs/gulp-starter
 
 
 
@@ -26,7 +23,7 @@ OS.
 * Composer: https://getcomposer.org/download/
 * npm: https://www.npmjs.com/
 
-## Baby Steps to install
+## Steps to install
 Once all the dependencies are installed, follow the steps below
 
 * Clone the repo
