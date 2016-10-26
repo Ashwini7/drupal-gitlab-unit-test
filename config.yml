@@ -1,0 +1,23 @@
+---
+drupal_root: project # @todo : have to make this dynamic.
+tools:
+  phpcs:
+    enable: true
+    exts: "{php,module,inc,install,test,profile,theme}"
+    include: # @todo : have to make this generic across for Drupal projects.
+    - "/modules/custom/**/*"
+    - "/themes/custom/**/*"
+  css:
+    enable: true
+    include: # @todo : have to make this generic across for Drupal projects.
+    - "/modules/custom/**/*.css"
+    - "/themes/**/*.css"
+  sass: # @todo : have to make this generic across for Drupal projects.
+    enable: true
+    include:
+    - "/themes/sass/**/*.s+(a|c)ss"
+  js: # @todo : have to make this generic across for Drupal projects.
+    enable: true
+    include:
+    - "/modules/custom/**/*.js"
+    - "/themes/**/*.js"

@@ -1,0 +1,8 @@
+{
+  "name": "Drupal gitlab Unit test",
+  "description": "Drupal gitlab Unit test including CI using gitlab",
+  "version": "0.0.1",
+  "require": {
+    "drupal/coder": "~8.2.8"
+  }
+}
